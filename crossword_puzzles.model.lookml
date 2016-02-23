@@ -21,6 +21,10 @@
       type: left_outer
       sql_on: ${clue.type_id} = ${puzzletype.id}
       relationship: many_to_one
+      
+    - join: top_publisher
+      sql_on: ${puzzle.publisher_id} = ${top_publisher.publisher_id}
+      relationship: many_to_one
 
 
 - explore: grid
