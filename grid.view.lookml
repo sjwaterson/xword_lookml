@@ -13,6 +13,7 @@
 
   - dimension: type_id
     type: number
+    hidden: true
     sql: ${TABLE}.type_id
 
   - measure: count

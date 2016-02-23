@@ -25,7 +25,6 @@
 
   - dimension: puzzle_id
     type: number
-    # hidden: true
     sql: ${TABLE}.puzzle_id
 
   - dimension: rebus
@@ -45,6 +44,7 @@
     sql: ${TABLE}.text
 
   - dimension: type_id
+    hidden: true
     type: number
     sql: ${TABLE}.type_id
 

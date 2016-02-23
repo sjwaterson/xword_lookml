@@ -5,33 +5,38 @@
   - dimension: id
     primary_key: true
     type: number
+    hidden: true
     sql: ${TABLE}.id
 
   - dimension_group: date
     type: time
-    timeframes: [date, week, month]
+    timeframes: [date, year, week, month]
     convert_tz: false
     sql: ${TABLE}.date
 
   - dimension: editor_id
     type: number
+    hidden: true
     sql: ${TABLE}.editor_id
 
   - dimension: grid_id
     type: number
-    # hidden: true
+    hidden: true
     sql: ${TABLE}.grid_id
 
   - dimension: permission_list
+    hidden: true
     type: string
     sql: ${TABLE}.permission_list
 
   - dimension: publisher_id
+    hidden: true
     type: number
     sql: ${TABLE}.publisher_id
 
   - dimension: setter_id
     type: number
+    hidden: true
     sql: ${TABLE}.setter_id
 
   - dimension: title
@@ -39,6 +44,7 @@
     sql: ${TABLE}.title
 
   - dimension: type_id
+    hidden: true
     type: number
     sql: ${TABLE}.type_id
 

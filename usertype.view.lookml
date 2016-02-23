@@ -4,6 +4,7 @@
 
   - dimension: id
     primary_key: true
+    hidden: true
     type: number
     sql: ${TABLE}.id
 
@@ -11,7 +12,6 @@
     type: string
     sql: ${TABLE}.type
 
-  - measure: count
-    type: count
-    drill_fields: [id]
-
+#  - measure: count
+#    type: count
+#    drill_fields: [id]

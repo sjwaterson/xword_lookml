@@ -1,9 +1,11 @@
 - view: puzzletype
+  label: 'Puzzle Type'
   sql_table_name: xword_puzzletype
   fields:
 
   - dimension: id
     primary_key: true
+    hidden: true
     type: number
     sql: ${TABLE}.id
 
