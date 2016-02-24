@@ -7,6 +7,7 @@
          ORDER BY COUNT(*) DESC
        ) rank
       FROM xword_puzzle AS puzzle
+      WHERE {% condition puzzle.publisher_id %} puzzle.publisher_id {% endcondition %}
       GROUP BY 1
 # # Specify the table name if it's different from the view name:
 #   sql_table_name: my_schema_name.top_publisher

@@ -50,5 +50,5 @@
 
   - measure: count
     type: count
-    drill_fields: [id, puzzle.id]
+    drill_fields: [answer, id, puzzle.id]
 
