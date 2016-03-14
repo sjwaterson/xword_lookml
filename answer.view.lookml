@@ -18,6 +18,7 @@
   - dimension: length
     type: number
     sql: LENGTH(${TABLE}.answer)
+    value_format_name: decimal_2 
 
   - measure: count
     type: count
