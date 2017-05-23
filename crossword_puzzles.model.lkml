@@ -31,6 +31,7 @@ explore: clue {
     sql_on: ${puzzle.publisher_id} = ${top_publisher.publisher_id} ;;
     relationship: many_to_one
   }
+  description: "This is where you find the rhubarb."
 }
 
 explore: grid {
@@ -39,6 +40,8 @@ explore: grid {
     sql_on: ${grid.type_id} = ${puzzletype.id} ;;
     relationship: many_to_one
   }
+
+  description: "And here is a rutabega! w00t."
 }
 
 explore: pattern {}
