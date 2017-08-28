@@ -27,6 +27,7 @@ view: user {
   }
 
   dimension_group: joined {
+    description: "The date that the user joined our secret society."
     type: time
     timeframes: [date, week, month]
     convert_tz: no
