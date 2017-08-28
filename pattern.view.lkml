@@ -8,6 +8,7 @@ view: pattern {
   }
 
   dimension: appearances {
+    description: "Number of times this pattern is used for a puzzle. typaegfaerg"
     type: number
     sql: ${TABLE}.count ;;
   }
