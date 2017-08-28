@@ -20,6 +20,7 @@ view: pattern {
   }
 
   measure: count {
+    description: "We love to count!"
     type: count
     drill_fields: [id]
   }
