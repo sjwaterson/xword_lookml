@@ -2,6 +2,7 @@ view: clue {
   sql_table_name: xword_clue ;;
 
   dimension: id {
+    description: "Every clue has a very special id."
     primary_key: yes
     type: number
     sql: ${TABLE}.id ;;
