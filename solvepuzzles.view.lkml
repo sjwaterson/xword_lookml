@@ -3,6 +3,7 @@ view: solvepuzzles {
 
   dimension: id {
     primary_key: yes
+    description: "Another super secret key."
     type: number
     sql: ${TABLE}.id ;;
   }
