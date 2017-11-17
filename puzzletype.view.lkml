@@ -5,7 +5,7 @@ view: puzzletype {
   dimension: id {
     primary_key: yes
     description: "hidden stuffs!"
-#    hidden: yes
+    hidden: no
     type: number
     sql: ${TABLE}.id ;;
   }

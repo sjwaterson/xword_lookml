@@ -14,11 +14,13 @@ view: pattern {
   }
 
   dimension: pattern {
+    description: "where you put letters and where you don't. it's typically got a cool mirrored effect."
     type: string
     sql: ${TABLE}.pattern ;;
   }
 
   measure: count {
+    description: "We love to count! and count very high. so there."
     type: count
     drill_fields: [id]
   }
