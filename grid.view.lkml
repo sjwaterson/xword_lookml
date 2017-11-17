@@ -2,7 +2,7 @@ view: grid {
   sql_table_name: xword_grid ;;
 
   dimension: id {
-    description: "the key!"
+    description: "I am the keymaster"
     primary_key: yes
     type: number
     sql: ${TABLE}.id ;;
