@@ -47,6 +47,12 @@ explore: grid {
 explore: pattern {}
 
 explore: puzzle {
+#  always_filter: {
+#    filters: {
+#      field: puzzle.type_id
+#      value: "2"
+#    }
+#  }
   join: grid {
     type: left_outer
     sql_on: ${puzzle.grid_id} = ${grid.id} ;;
