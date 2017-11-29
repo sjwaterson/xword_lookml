@@ -9,6 +9,8 @@ include: "*.dashboard"
 explore: answer {}
 
 explore: clue {
+  description: "clueless"
+
   join: puzzle {
     type: left_outer
     sql_on: ${clue.puzzle_id} = ${puzzle.id} ;;
