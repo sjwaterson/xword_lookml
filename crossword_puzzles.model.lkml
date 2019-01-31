@@ -31,7 +31,7 @@ explore: clue {
     sql_on: ${puzzle.publisher_id} = ${top_publisher.publisher_id} ;;
     relationship: many_to_one
   }
-  description: "This is where you find the rhubarb. so there."
+  description: "Fruitcake is awesome!!!!"
 }
 
 explore: grid {

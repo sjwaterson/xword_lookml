@@ -33,4 +33,10 @@ view: answer {
     type: sum
     sql: ${TABLE}.count ;;
   }
+
+  measure: average_length {
+    label: "Customer Value"
+    type: average
+    sql: ${length}  + 42 ;;
+  }
 }
